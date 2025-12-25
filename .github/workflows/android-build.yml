@@ -6,14 +6,14 @@ on:
       - 'v*.*.*'  # 只在推送版本标签时触发
   workflow_dispatch:
     inputs:
-      server_url:
+      server_url:'http://112.6.217.41:3600'
         description: 'Server URL (e.g. https://your-site.com)'
         required: true
-        default: 'https://ednovas.video'
+        default: 'http://112.6.217.41:3600'
       app_name:
-        description: 'App Name'
+        description: '我的私人影院'
         required: true
-        default: 'E视界'
+        default: '我的私人影院'
       version_tag:
         description: 'Version Tag (e.g. v1.0.0)'
         required: true
