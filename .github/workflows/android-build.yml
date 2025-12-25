@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       server_url:'http://112.6.217.41:3600'
-        description: 'Server URL (e.g. https://your-site.com)'
+        description: 'http://112.6.217.41:3600'
         required: true
         default: 'http://112.6.217.41:3600'
       app_name:
