@@ -9,7 +9,7 @@ on:
       server_url:'http://112.6.217.41:3600'
         description: 'http://112.6.217.41:3600'
         required: true
-        default: 'http://112.6.217.41:3600'
+        default: 'https://112.6.217.41:3600'
       app_name:
         description: '我的私人影院'
         required: true
